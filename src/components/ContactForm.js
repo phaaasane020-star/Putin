@@ -38,7 +38,7 @@ export default function ContactForm() {
             <option>As soon as possible</option>
             <option>Within a week</option>
             <option>Within a month</option>
-            <option>I'm flexible</option>
+            <option>I&apos;m flexible</option>
           </select>
         </div>
       </div>

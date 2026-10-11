@@ -90,7 +90,7 @@ export default async function Home() {
 
       <section className="mx-auto max-w-[1320px] px-5 py-24 text-center md:px-10 md:py-32">
         <Reveal>
-          <h2 className="font-display mx-auto max-w-3xl text-4xl font-extrabold tracking-tight text-balance md:text-6xl">Let's create something amazing</h2>
+          <h2 className="font-display mx-auto max-w-3xl text-4xl font-extrabold tracking-tight text-balance md:text-6xl">Let&apos;s create something amazing</h2>
           <div className="mt-9 flex justify-center">
             <SliceButton href={order} external variant="dark" size="lg">
               <Icon name="chat" /> Chat on WhatsApp

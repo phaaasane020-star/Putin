@@ -26,7 +26,7 @@ export default async function Dashboard({ searchParams }) {
     return (
       <div className="max-w-xl rounded-3xl bg-white p-8">
         <h1 className="font-display text-2xl font-bold">Connect your database</h1>
-        <p className="mt-3 text-ocean/75">The dashboard can't reach the database yet. Add your Supabase DATABASE_URL in the Vercel environment variables, then redeploy.</p>
+        <p className="mt-3 text-ocean/75">The dashboard can&apos;t reach the database yet. Add your Supabase DATABASE_URL in the Vercel environment variables, then redeploy.</p>
         <p className="mt-3 rounded-2xl bg-canvas p-4 text-sm">{e.message}</p>
       </div>
     );

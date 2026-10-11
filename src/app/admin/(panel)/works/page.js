@@ -20,7 +20,7 @@ export default async function WorksAdmin() {
 
       {error && (
         <p className="mt-6 rounded-2xl bg-white p-5 text-sm">
-          Supabase isn't connected yet. Add DATABASE_URL, SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in the Vercel environment variables, then redeploy. <span className="mt-2 block text-ocean/60">{error}</span>
+          Supabase isn&apos;t connected yet. Add DATABASE_URL, SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY in the Vercel environment variables, then redeploy. <span className="mt-2 block text-ocean/60">{error}</span>
         </p>
       )}
 
